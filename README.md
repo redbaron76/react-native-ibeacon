@@ -103,6 +103,8 @@ Beacons.requestAlwaysAuthorization();
 
 This method should be called before anything else is called. It handles to request the use of beacons while the application is open or in the background. Either this method or `Beacons.requestWhenInUseAuthorization` needs to be called to receive data from beacons.
 
+In order to make `AlwaysAuthorization` working, be sure to add a `Privacy - Location Always Usage Description` entry in your `Info.plist` otherwise it will silently fail.
+
 ### Beacons.getAuthorizationStatus
 ```javascript
 Beacons.getAuthorizationStatus(function(authorization) {
