@@ -1,3 +1,6 @@
+## 0.6.1
+Fixing requestAlwaysAuthorization call and support for iOS 9.x
+
 ## 0.6.0
 Add support for dropping empty ranges (#24)
 
